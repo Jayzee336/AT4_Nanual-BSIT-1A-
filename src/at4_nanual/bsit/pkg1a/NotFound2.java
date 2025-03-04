@@ -70,6 +70,7 @@ public class NotFound2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBackActionPerformed
+        // Opens Update window
         Update x = new Update();
         x.setVisible(true);
         setVisible(false);
